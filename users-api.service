@@ -7,7 +7,7 @@ Type=simple
 User=root
 Group=root
 WorkingDirectory=/app/users-api
-ExecStart=/bin/bash /app/user-api/users-api-launcher.sh
+ExecStart=/bin/bash -c '/app/user-api/users-api-launcher.sh'
 
 [Install]
 WantedBy=multi-user.target
