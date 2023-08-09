@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=root
 Group=root
-ExecStart=/app/user-api/users-api-launcher.sh
+ExecStart=/app/users-api/users-api-launcher.sh
 
 [Install]
 WantedBy=multi-user.target
